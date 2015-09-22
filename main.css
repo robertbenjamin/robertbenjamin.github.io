@@ -65,8 +65,18 @@ ul {
 	margin-bottom: 40px;
 }
 
-a {
-	font-size: 1.2em;
+.email {
+	font-size: 2em;
+	display: block;
+	margin-bottom: 85px;
+	color: #4B90FF;
+	font-weight: 600;
+}
+
+.links > * {
+	font-size: 2em;
+	color: #4B90FF;
+	font-weight: 600;
 }
 
 .underline {
