@@ -65,13 +65,27 @@ ul {
 	margin-bottom: 40px;
 }
 
+a {
+	font-size: 1.2em;
+}
+
 .underline {
 	text-decoration: underline;
 }
 
+.bold {
+	font-weight: 600;
+}
+
 .proj-img {
 	left: -50px;
-	width: 800px;
+	max-width: 800px;
 	height: auto;
 	/*display: block;*/
 }
+
+/*@media (max-width < 500px) {
+	body {
+		background-color: green;
+	}
+}*/
