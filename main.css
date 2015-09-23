@@ -84,7 +84,7 @@ article {
 }
 
 .links > * {
-	font-size: 2em;
+	font-size: 1.7em;
 	color: #4B90FF;
 	font-weight: 600;
 }
@@ -148,7 +148,7 @@ article {
 }
 
 /* For larger devices */
-@media (min-width: 1440px) {
+@media (min-width: 1600px) {
 	.logo {
 		width: 110px;
 	}
@@ -162,7 +162,7 @@ article {
 		font-size: 2.5em;
 	}
 	.links {
-		font-size: 2.5em;
+		font-size: 2em;
 	}
 	.email {
 		font-size: 2.5em;
