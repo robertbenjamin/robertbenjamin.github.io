@@ -12,14 +12,6 @@
  * http://opensource.org/licenses/MIT
  */
 
-// TODO: Make available to AMD and commonjs. Done but should be tested
-// TODO: Add option to the scrolling on an element other than the standard $(document)
-// TODO: Add option to use on any CSS property that accept a color value
-// TODO: Add callback function
-// TODO: Create unit tests
-// TODO: Create decent sample page
-// TODO: Proper versioning
-
 (function (factory) {
     'use strict';
     if (typeof define === 'function' && define.amd) {
@@ -244,18 +236,6 @@
     };
 }));
 
-/*
- * debouncedresize: special jQuery event that happens once after a window resize
- *
- * latest version and complete README available on Github:
- * https://github.com/louisremi/jquery-smartresize
- *
- * Copyright 2012 @louis_remi
- * Licensed under the MIT license.
- *
- * This saved you an hour of work?
- * Send me music http://www.amazon.co.uk/wishlist/HNTU0468LQON
- */
 (function($) {
     'use strict';
 
