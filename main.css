@@ -28,6 +28,10 @@ header {
 	vertical-align: middle;
 }
 
+h1, h2, h3, p, li {
+	color: #2E2E2E;
+}
+
 h1 {
 	display: inline-block;
 	font-weight: 500;
