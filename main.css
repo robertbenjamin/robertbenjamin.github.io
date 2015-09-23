@@ -34,7 +34,7 @@ h1 {
 
 main {
 	max-width: 800px;
-	margin: 0 125px 0 125px;
+	margin: 0 110px 0 110px;
 }
 
 p, li {
@@ -111,6 +111,9 @@ article {
 	.logo {
 		width: 70px;
 	}
+	main {
+		margin: 0 70px 0 70px;
+	}
 	h1 {
 		font-size: 2.5em;
 	}
@@ -123,19 +126,22 @@ article {
 }
 
 @media (max-width: 600px) {
+	.logo {
+		width: 40px;
+	}
 	main {
 		margin: 0 55px 0 55px;
 	}
 	h1 {
-		font-size: 2em;
+		font-size: 2.4em;
 	}
 	p, li {
-		font-size: 1.5em;
+		font-size: 2em;
 	}
 	.links {
-		font-size: 0.5em;
+		font-size: 0.8em;
 	}
 	.email {
-		font-size: 1.3em;
+		font-size: 1.7em;
 	}
 }
