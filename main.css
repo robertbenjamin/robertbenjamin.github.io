@@ -149,9 +149,6 @@ article {
 
 /* For larger devices */
 @media (min-width: 1440px) {
-	* {
-		background-color: green;
-	}
 	.logo {
 		width: 110px;
 	}
