@@ -22,7 +22,7 @@ header {
 .logo {
 	width: 90px;
 	height: auto;
-	margin: 40px;
+	margin: 30px;
 	vertical-align: middle;
 }
 
@@ -34,7 +34,7 @@ h1 {
 
 main {
 	max-width: 800px;
-	margin: 0 150px 0 150px;
+	margin: 0 125px 0 125px;
 }
 
 p, li {
@@ -43,12 +43,13 @@ p, li {
 }
 
 p {
-	margin-bottom: 50px;
+	/*margin-bottom: 50px;*/
 }
 
 .description {
 	max-width: 600px;
 	margin-left: 20px;
+	margin-bottom: 40px;
 }
 
 h2 {
@@ -65,18 +66,32 @@ ul {
 	margin-bottom: 40px;
 }
 
+article {
+	border-bottom: 1px solid white;
+	padding-bottom: 40px;
+	margin-bottom: 20px;
+}
+
 .email {
 	font-size: 2em;
 	display: block;
-	margin-bottom: 85px;
+	margin-bottom: 35px;
 	color: #4B90FF;
 	font-weight: 600;
+}
+
+.links {
+	margin-bottom: 50px;
 }
 
 .links > * {
 	font-size: 2em;
 	color: #4B90FF;
 	font-weight: 600;
+}
+
+.proj-link {
+	color: #FC4F4F;
 }
 
 .underline {
@@ -88,14 +103,39 @@ ul {
 }
 
 .proj-img {
-	left: -50px;
-	max-width: 800px;
+	max-width: 100%;
 	height: auto;
-	/*display: block;*/
 }
 
-/*@media (max-width < 500px) {
-	body {
-		background-color: green;
+@media (max-width: 800px) {
+	.logo {
+		width: 70px;
 	}
-}*/
+	h1 {
+		font-size: 2.5em;
+	}
+	p, li {
+		font-size: 1.7em;
+	}
+	.links {
+		font-size: 0.8em;
+	}
+}
+
+@media (max-width: 600px) {
+	main {
+		margin: 0 55px 0 55px;
+	}
+	h1 {
+		font-size: 2em;
+	}
+	p, li {
+		font-size: 1.5em;
+	}
+	.links {
+		font-size: 0.5em;
+	}
+	.email {
+		font-size: 1.3em;
+	}
+}
