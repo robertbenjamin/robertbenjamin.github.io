@@ -9,6 +9,8 @@ ol, ul {
 	list-style: none;
 }
 
+/* General Styles */
+
 body {
 	background-color: #B0F3F8;
 	border: 10px white solid;
@@ -32,15 +34,14 @@ h1 {
 	font-size: 3.2em;
 }
 
+h2 {
+	font-size: 1.8em;
+	margin-bottom: 25px;
+}
+
 main {
 	max-width: 800px;
 	margin: 0 110px 0 110px;
-}
-
-p, li {
-	font-size: 2.2em;
-	font-weight: 300;
-	line-height: 125%;
 }
 
 .description {
@@ -49,9 +50,10 @@ p, li {
 	margin-bottom: 40px;
 }
 
-h2 {
-	font-size: 1.8em;
-	margin-bottom: 25px;
+p, li {
+	font-size: 2.2em;
+	font-weight: 300;
+	line-height: 125%;
 }
 
 li {
@@ -147,6 +149,9 @@ article {
 
 /* For larger devices */
 @media (min-width: 1440px) {
+	* {
+		background-color: green;
+	}
 	.logo {
 		width: 110px;
 	}
