@@ -155,17 +155,21 @@ article {
 }
 
 /* For larger devices */
-@media (min-width: 1600px) {
-	.logo {
-		width: 100px;
-	}
-  header {
+
+@media (min-width: 1400px) {
+  header, main {
     max-width: 1000px;
     margin: 0 auto;
   }
-	main {
-    max-width: 1000px;
-    margin: 0 auto;
+  .description {
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+  }
+}
+
+@media (min-width: 1600px) {
+	.logo {
+		width: 100px;
 	}
 	h1 {
 		font-size: 4em;
