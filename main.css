@@ -43,9 +43,9 @@ h2 {
 	margin-bottom: 25px;
 }
 
-main {
-	max-width: 800px;
-	margin: 0 110px 0 110px;
+main, header {
+	max-width: 1000px;
+	margin: 0 auto 0 auto;
 }
 
 .description {
@@ -111,7 +111,7 @@ article {
 
 /* For smaller devices */
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
 	.logo {
 		width: 70px;
 	}
@@ -157,10 +157,6 @@ article {
 /* For larger devices */
 
 @media (min-width: 1400px) {
-  header, main {
-    max-width: 1000px;
-    margin: 0 auto;
-  }
   .description {
     max-width: 800px;
     margin: 0 auto 30px auto;
