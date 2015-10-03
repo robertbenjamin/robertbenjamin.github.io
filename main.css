@@ -154,11 +154,15 @@ article {
 /* For larger devices */
 @media (min-width: 1600px) {
 	.logo {
-		width: 110px;
+		width: 100px;
 	}
+  header {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
 	main {
     max-width: 1000px;
-		margin: 0 150px 0 150px;
+    margin: 0 auto;
 	}
 	h1 {
 		font-size: 4em;
