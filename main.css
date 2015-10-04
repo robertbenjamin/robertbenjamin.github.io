@@ -96,12 +96,9 @@ article {
 	color: #FC4F4F;
 }
 
-.underline {
-	text-decoration: underline;
-}
-
-.bold {
+.strong {
 	font-weight: 600;
+  font-size: 0.95em;
 }
 
 .proj-img {
